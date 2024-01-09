@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(222, 26%, 31%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.switch-cont h5 {
+  font-size: 0.7rem;
+}
+.switch {
+  background-color: hsl(223, 31%, 20%);
+  width: 75px;
+  height: 25px;
+  margin-left: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+  position: relative;
+}
+.switch-btn {
+  width: 20px;
+  height: 19px;
+  transition: transform 0.3s ease-in;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+.active {
+  background-color: hsl(6, 70%, 34%);
+}
+.switch span {
+  position: absolute;
+  top: -1%;
+  left: 2%;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding: 1rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  border-radius: 7px;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: hsl(223, 31%, 20%);
+  color: white;
+}
+.btn-wrapper {
+  background-color: hsl(223, 31%, 20%);
+  padding: 0.9rem;
+  border-radius: 7px;
+}
+.btn-num button {
+  border: none;
+  padding: 0px 20px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 21px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+}
+.btn-del button {
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  background-color: hsl(224, 28%, 35%);
+}
+.btn-reset button {
+  color: white;
+  border: none;
+  padding: 5px 53px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  background-color: hsl(224, 28%, 35%);
+}
+.btn-equal button {
+  color: white;
+  border: none;
+  padding: 5px 65px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  background-color: hsl(6, 70%, 34%);
+}
+@media only screen and (max-width: 700px) {
+}
