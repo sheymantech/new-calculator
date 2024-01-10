@@ -53,6 +53,9 @@ const toggleCheck = function (target) {
     }
   });
 };
+const repoPush = function () {
+  console.log("pushing to my repo daily");
+};
 
 btn.forEach((btn) => {
   btn.addEventListener("click", function (e) {
@@ -71,4 +74,4 @@ btn.forEach((btn) => {
     }
   });
 });
-console.log("this is the new branch i just created in the script file");
+console.log("i succesfully push to myu repo today!");
